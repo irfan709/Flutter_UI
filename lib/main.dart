@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui/bottom_nav_screen.dart';
+import 'package:flutter_ui/botton_nav_hide_show.dart';
 import 'package:flutter_ui/chat_screen.dart';
 import 'package:flutter_ui/chips_example_screen.dart';
 import 'package:flutter_ui/expandable_nav_screen.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: FirstScreen(),
+      home: MainScreen(),
     );
   }
 }
